@@ -6,7 +6,8 @@ function checkPassword() {
     const input = document.getElementById("passInput").value;
     if (input === correctPassword) {
         document.getElementById("passwordScreen").style.display = "none";
-        document.getElementById("mainContent").style.display = "flex";
+        document.getElementById("mainContent").style.display = "block";
+window.scrollTo(0,0);
     } else {
         alert("ااااه ناسي تاريخ ارتباطنا وهنكد عليك❤️");
     }

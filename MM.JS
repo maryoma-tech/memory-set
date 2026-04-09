@@ -8,7 +8,7 @@ function checkPassword() {
         document.getElementById("passwordScreen").style.display = "none";
         document.getElementById("mainContent").style.display = "flex";
     } else {
-        alert("ااااه ناسي تاريخ ارتباكنا وهنكد عليك❤️");
+        alert("ااااه ناسي تاريخ ارتباطنا وهنكد عليك❤️");
     }
 }
 

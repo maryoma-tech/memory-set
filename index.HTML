@@ -34,5 +34,24 @@
     </div>
 
     <script src="MM.JS"></script>
+<button onclick="showSecretMessage()" style="background: none; border: none; font-size: 30px; cursor: pointer;">
+  📩
+</button>
+
+<div id="secretMessage" style="display:none; margin-top: 20px; padding: 15px; background-color: rgba(255, 255, 255, 0.8); border-radius: 15px; color: #d63384; font-family: 'Cairo', sans-serif; line-height: 1.6;">
+  متعرفش انت غالي عندي ازاي وهتفضل ع طول وهفضل بحبك ودايما ليك مكانه ف قلبي لوحدك حتا لو جه يوم وسبنا بعض هفضل احبك واحترمك ف غيابك قبل وجودك. 
+  معنديش مشكله استناك العمر كله بس حاول عشاني بلاش نبقا لناس تانيين ❤️‍🩹❤️‍🩹
+</div>
+
+<script>
+function showSecretMessage() {
+  var x = document.getElementById("secretMessage");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 </body>
 </html>

@@ -76,8 +76,13 @@
     </div>
 
     <script src="MM.JS"></script>
-<button onclick="showSecretMessage()" style="background: none; border: none; font-size: 30px; cursor: pointer;">
-  📩
+<div style="display: flex; align-items: center; justify-content: center; gap: 15px; margin-top: 20px;">
+    <button class="time-btn" onclick="openVideo()" style="margin: 0;">4:44</button>
+    
+    <button onclick="showSecretMessage()" style="background: none; border: none; font-size: 35px; cursor: pointer; padding: 0; display: flex; align-items: center;">
+        📩
+    </button>
+</div>
 </button>
 
 <div id="secretMessage" style="display:none; margin-top: 20px; padding: 15px; background-color: rgba(255, 255, 255, 0.8); border-radius: 15px; color: #d63384; font-family: 'Cairo', sans-serif; line-height: 1.6;">
